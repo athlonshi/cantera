@@ -19,6 +19,7 @@ const int ReservoirType = 1;
 const int ReactorType = 2;
 const int FlowReactorType = 3;
 const int ConstPressureReactorType = 4;
+const int ExperimentalReactorType = 6;
 
 /**
  * Base class for stirred reactors.

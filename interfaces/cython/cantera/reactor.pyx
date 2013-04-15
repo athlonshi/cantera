@@ -206,6 +206,10 @@ cdef class Reservoir(ReactorBase):
     reactor_type = "Reservoir"
 
 
+cdef class ExperimentalReactor(Reactor):
+    reactor_type = "ExperimentalReactor"
+
+
 cdef class ConstPressureReactor(Reactor):
     """A homogeneous, constant pressure, zero-dimensional reactor. The volume
     of the reactor changes as a function of time in order to keep the
